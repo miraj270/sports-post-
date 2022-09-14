@@ -13,9 +13,9 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: Cricket, football
-  BuildCommand: News
-  Output: ./sports post 270
+  InstallCommand: npm i
+  BuildCommand: npm run build
+  Output: ./sports post
 
 jobs:
   build:
